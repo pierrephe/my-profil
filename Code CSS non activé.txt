@@ -1,0 +1,13 @@
+/* MEDIA QUERIES */
+@media (min-width: 768px) and (max-width: 992px){
+	.container{
+		width: 720px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767){
+	.container{
+		width: 100%;
+	}
+}
+
+https://pierrephe.github.io/my-profil/

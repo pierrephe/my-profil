@@ -1,0 +1,101 @@
+h1{
+	color: #fdffcd;
+	background-color: #385170;
+}
+h2{
+	color: #fdffcd;
+	background-color: #385170;
+}
+p{
+	color: black;
+}
+body{
+	color: lightyellow;
+	font-family: 'Montserrat', sans-serif;
+	background-color: navy;
+
+}
+body{
+	background-image: url(images/fondvert.jpg);
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	transition: font-size 0.6s ease;
+}
+
+a:hover {
+	font-size: 50px;
+	color: darkred;
+
+}
+
+ul {
+	list-style: none;
+}
+li {
+	display: inline;
+}
+div{
+	background-color: #FAEEE0;
+	border-radius: 15px;
+	padding: 25px 35px;
+	box-shadow: 0px 10px 20px black;
+	margin: 50px 30px;
+}
+
+.liste-inline{
+	resize: 10px;
+}
+
+.container{
+	margin: 50px auto;
+	width: 920PX;
+	
+	
+}
+
+#CI{border-radius: 60px;
+border: 4px solid #385170; 
+ }
+
+
+.image-border{ 
+border: 4px solid darkred; }
+
+#divpay{
+	background-color: #A2D2FF  ;
+	padding: 10px 10px;
+	border-radius: 15% ;
+	box-shadow: 10;
+
+}
+
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media  (max-width: 767px){
+	.container{
+		width: 100%;
+		color: darkred;
+		margin: 0;
+	}
+	#divpay{
+		margin: 1px 10px
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.container{
+		width: 720px;
+		color: darkred;
+
+	}
+	
+	}
+}
+
